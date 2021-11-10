@@ -8,9 +8,9 @@ const Navbar = () => {
         Home
       </a>
       <a href="#about">About</a>
+      <a href="#resume">Resume</a>
       <a href="#work">Work</a>
       <a href="#contact">Contact</a>
-      <a href="#resume">Resume</a>
     </div>
   );
 };
