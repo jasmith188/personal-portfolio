@@ -1,8 +1,18 @@
 .work {
   padding: 3rem 0 3rem;
 }
-.work h1 {
+.work h2,
+p {
   text-align: center;
-  color: white;
-  font-weight: 200;
+  color: #eeeeee;
+}
+.work-examples {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+  justify-items: center;
+}
+img {
+  height: 500px;
 }

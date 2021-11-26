@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .navbar {
-  background-color: #4698cb;
+  background-color: #393e46;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -11,7 +11,7 @@
 
 /* Style the links inside the navigation bar */
 .navbar a {
-  color: #f2f2f2;
+  color: #eeeeee;
   padding: 1.2rem 1.2rem;
   text-decoration: none;
   font-size: 1.2rem;
@@ -21,27 +21,27 @@
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  color: #ff9000 !important;
+  color: #fd7014 !important;
   font-weight: bold;
 }
 
 /* Add a color to the active/current link */
 .navbar a.active {
-  color: white;
+  color: #eeeeee;
 }
 
 /* Tablet  */
 
 @media only screen and (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
   .navbar a {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0.8rem 0.8rem;
   }
 }
@@ -49,7 +49,8 @@
 /* Mobile  */
 
 @media only screen and (max-width: 400px) {
-  .navbar a {
-    font-size: 0.6rem;
+  .navbar {
+    flex-direction: column;
+    align-items: center;
   }
 }
