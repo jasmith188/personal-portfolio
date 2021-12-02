@@ -30,7 +30,9 @@ a {
   color: #eeeeee;
 }
 .about img {
-  height: 480px;
+  max-height: 480px;
+  height: auto;
+  width: 100%;
 }
 
 /* Tablet  */
@@ -43,9 +45,10 @@ a {
 
 /* Mobile  */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 440px) {
   .about {
     padding-top: 1rem;
+    width: 100%;
   }
   .about p {
     font-size: 1.5rem;

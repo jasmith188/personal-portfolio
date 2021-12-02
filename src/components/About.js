@@ -62,6 +62,18 @@ function About() {
             </Accordion.Collapse>
           </Card>
         </Accordion>
+        {/* <p>
+          I have a deep understanding of HTML, CSS/SCSS, JavaScript, TypeScript,
+          React.js, Node.js, jQuery, Git, REST API's, SQL and relational
+          databases.
+        </p>
+        <p>
+          I greatly value self-development. I thrive in environments that push
+          me to grow. I am a highly motivated and progress-focused Web Developer
+          with 1+ years of experience and a background in hospitality as a fine
+          dining Chef. With a track record of meeting deadlines and
+          dependability, I believe I would be a great contribution.
+        </p> */}
 
         <p id="resume-description">
           Click <a href="www.test.com">here</a> to view my most up to date
