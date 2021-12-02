@@ -1,0 +1,27 @@
+.projects {
+  padding: 3rem 0 3rem;
+}
+.projects h2 {
+  color: #eeeeee;
+  font-size: 2.3rem;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #fd7014;
+}
+.projects-examples {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding: 2.5rem;
+}
+.projects-examples h1 {
+  color: #fd7014;
+}
+.projects-examples p {
+  color: #eeeeee;
+}
+
+img {
+  height: 500px;
+}
