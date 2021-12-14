@@ -21,11 +21,23 @@ function About() {
           TypeScript, React.js, Node.js, jQuery, Git, REST API's, SQL and
           relational databases.
         </p>
-        <a href="resume.com">
+        <a
+          href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:74d2dc04-6db1-449c-b055-680709bf879c"
+          rel="noreferrer"
+          target="_blank"
+        >
           <h1>
             <button>View Resume</button>
           </h1>
         </a>
+        <di className="about-tech">
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </di>
       </div>
       <div>
         <img src={profilePic} alt="profile-pic" />
