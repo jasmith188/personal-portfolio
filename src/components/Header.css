@@ -212,6 +212,7 @@ ul#nav li a:hover {
     line-height: 16px; /* reset line-height from 48px */
     border: none;
     font-size: 1.2rem;
+    color: #eee;
     text-transform: lowercase;
     text-decoration: underline;
     text-decoration-color: #fd7014;
