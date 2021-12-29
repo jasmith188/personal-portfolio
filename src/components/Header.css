@@ -209,7 +209,7 @@ ul#nav li a:hover {
     margin: 0;
     padding: 0;
     margin: 12px 0;
-    line-height: 16px; /* reset line-height from 48px */
+    line-height: 26px; /* reset line-height from 48px */
     border: none;
     font-size: 1.2rem;
     color: #eee;

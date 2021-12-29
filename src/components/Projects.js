@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import weddingKnot from '../images/wedding-wire.jpg';
+import covid19 from '../images/covid-19.jpg';
 import githubBlueLogo from '../images/github-blue.png';
 
 const Projects = () => {
@@ -9,91 +10,83 @@ const Projects = () => {
       <h1>Projects</h1>
       <div>
         <div className="projects-examples">
-          <img src={weddingKnot} alt="wedding-knot" />
+          <a
+            href="https://stupefied-thompson-35d16d.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={weddingKnot} alt="wedding-knot" />
+          </a>
           <div className="projects-content">
             <h1>Wedding Knot</h1>
             <ol>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
               <li>
-                Corrupti quo aperiam pariatur voluptas velit numquam quae harum,
-                molestiae
+                A fully responsive wedding website that shows their guest
+                information about the couple/wedding party, venue, lodging and
+                activities
               </li>
-              <li>
-                porro error vero possimus sint tenetur iure cum eaque enim
-                dolor. Debitis?
-              </li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>I implemented a RSVP form using Formspree CLI and React</li>
+              <li>Tools: React, SCSS, Formspree</li>
             </ol>
-            <button>View</button>
-            <p>
-              <img src={githubBlueLogo} alt="github-logo" /> - Source Code
-            </p>
-          </div>
-        </div>
-        <div className="projects-examples" id="projects-2">
-          <img src={weddingKnot} alt="wedding-knot" />
-          <div className="projects-content">
-            <h1>Wedding Knot</h1>
-            <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>
-                Corrupti quo aperiam pariatur voluptas velit numquam quae harum,
-                molestiae
-              </li>
-              <li>
-                porro error vero possimus sint tenetur iure cum eaque enim
-                dolor. Debitis?
-              </li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            </ul>
-            <button>View</button>
-            <p>
-              <img src={githubBlueLogo} alt="github-logo" /> - Source Code
-            </p>
+            <div className="projects-links">
+              <a
+                href="https://stupefied-thompson-35d16d.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>View</button>
+              </a>
+              <p>
+                <a
+                  href="https://github.com/jasmith188/wedding-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={githubBlueLogo} alt="github-logo" />
+                </a>
+              </p>
+            </div>
           </div>
         </div>
         <div className="projects-examples">
-          <img src={weddingKnot} alt="wedding-knot" />
+          <a
+            href="https://dreamy-khorana-1fd10a.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={covid19} alt="wedding-knot" />
+          </a>
           <div className="projects-content">
-            <h1>Wedding Knot</h1>
-            <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <h1>COVID-19 Tracker</h1>
+            <ol>
               <li>
-                Corrupti quo aperiam pariatur voluptas velit numquam quae harum,
-                molestiae
+                A fully responsive COVID-19 Tracker that allows user to find
+                total cases by country or worldwide
               </li>
               <li>
-                porro error vero possimus sint tenetur iure cum eaque enim
-                dolor. Debitis?
+                I used a third party API (disease.sh) to retrieve reliable
+                global disease information in a JSON format
               </li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            </ul>
-            <button>View</button>
-            <p>
-              <img src={githubBlueLogo} alt="github-logo" /> - Source Code
-            </p>
-          </div>
-        </div>
-        <div className="projects-examples" id="projects-4">
-          <img src={weddingKnot} alt="wedding-knot" />
-          <div className="projects-content">
-            <h1>Wedding Knot</h1>
-            <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>
-                Corrupti quo aperiam pariatur voluptas velit numquam quae harum,
-                molestiae
-              </li>
-              <li>
-                porro error vero possimus sint tenetur iure cum eaque enim
-                dolor. Debitis?
-              </li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            </ul>
-            <button>View</button>
-            <p>
-              <img src={githubBlueLogo} alt="github-logo" /> - Source Code
-            </p>
+              <li>Tools: Firebase, React, Material UI, LineGraph</li>
+            </ol>
+            <div className="projects-links">
+              <a
+                href="https://dreamy-khorana-1fd10a.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>View</button>
+              </a>
+              <p>
+                <a
+                  href="https://github.com/jasmith188/covid-19-tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={githubBlueLogo} alt="github-logo" />
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
