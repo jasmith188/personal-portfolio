@@ -18,7 +18,13 @@ const Projects = () => {
             <img src={weddingKnot} alt="wedding-knot" />
           </a>
           <div className="projects-content">
-            <h1>Wedding Knot</h1>
+            <a
+              href="https://stupefied-thompson-35d16d.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h1>Wedding Knot</h1>
+            </a>
             <ol>
               <li>
                 A fully responsive wedding website that shows their guest
@@ -57,7 +63,13 @@ const Projects = () => {
             <img src={covid19} alt="wedding-knot" />
           </a>
           <div className="projects-content">
-            <h1>COVID-19 Tracker</h1>
+            <a
+              href="https://dreamy-khorana-1fd10a.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h1>COVID-19 Tracker</h1>
+            </a>
             <ol>
               <li>
                 A fully responsive COVID-19 Tracker that allows user to find
