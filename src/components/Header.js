@@ -31,7 +31,7 @@ const Header = () => {
         <li>
           <a
             className="smoothscroll"
-            href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:74d2dc04-6db1-449c-b055-680709bf879c"
+            href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:007daac2-9c92-455b-9465-9c901cbeed03"
             rel="noreferrer"
             target="_blank"
           >
