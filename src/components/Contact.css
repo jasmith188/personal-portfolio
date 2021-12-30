@@ -54,12 +54,12 @@ form p {
   display: flex;
   justify-content: space-between;
 }
-.form-container form p input {
+.form-container form p button {
   color: #fd7014;
   font-weight: 500;
   background-color: #eeeeee;
 }
-.form-container form p input:hover {
+.form-container form p button:hover {
   font-weight: 700;
 }
 

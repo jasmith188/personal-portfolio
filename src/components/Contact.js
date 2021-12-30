@@ -13,6 +13,7 @@ const Contact = () => {
       name="contact"
       method="POST"
       data-netlify="true"
+      subject=""
     >
       <h1>Contact Me</h1>
       <div className="form-container">
@@ -40,7 +41,7 @@ const Contact = () => {
         </form>
         <div className="form-contact">
           <div>
-            <a href="resume.com">
+            <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:007daac2-9c92-455b-9465-9c901cbeed03">
               <h1>
                 <button>Download Resume</button>
               </h1>
