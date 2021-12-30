@@ -7,25 +7,35 @@ import linkedinLogo from '../images/linkedin.png';
 
 const Contact = () => {
   return (
-    <div className="form-wrapper" id="contact">
+    <form
+      className="form-wrapper"
+      id="contact"
+      name="contact"
+      method="POST"
+      data-netlify="true"
+    >
       <h1>Contact Me</h1>
       <div className="form-container">
         <form name="contact" method="post">
           <input type="hidden" name="form-name" value="contact" />
           <p>
-            <label htmlFor="name">Your Name</label> <br />
-            <input type="text" id="name" name="name" required />
+            <label>
+              Your Name: <input type="text" name="name" />
+            </label>
+            <br />
           </p>
           <p>
-            <label htmlFor="email">Your Email</label> <br />
-            <input type="email" id="email" name="email" required />
+            <label>
+              Your Email: <input type="email" name="email" />
+            </label>
           </p>
           <p>
-            <label htmlFor="message">Message</label> <br />
-            <textarea id="message" name="message" required></textarea>
+            <label>
+              Message: <textarea name="message"></textarea>
+            </label>
           </p>
           <p>
-            <input type="submit" value="Submit" />
+            <button type="submit">Send</button>
           </p>
         </form>
         <div className="form-contact">
@@ -64,7 +74,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </form>
   );
 };
 
