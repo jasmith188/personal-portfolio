@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css';
 import weddingKnot from '../images/wedding-wire.jpg';
 import covid19 from '../images/covid-19.jpg';
+import smittysDJ from '../images/smittys-dj-image.png';
 import githubBlueLogo from '../images/github-blue.png';
 
 const Projects = () => {
@@ -60,7 +61,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={covid19} alt="wedding-knot" />
+            <img src={covid19} alt="covid19" />
           </a>
           <div className="projects-content">
             <a
@@ -72,8 +73,8 @@ const Projects = () => {
             </a>
             <ol>
               <li>
-                A fully responsive COVID-19 Tracker that allows user to find
-                total cases by country or worldwide
+                A COVID-19 Tracker that allows user to find total cases by
+                country or worldwide
               </li>
               <li>
                 I used a third party API (disease.sh) to retrieve reliable
@@ -92,6 +93,50 @@ const Projects = () => {
               <p>
                 <a
                   href="https://github.com/jasmith188/covid-19-tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={githubBlueLogo} alt="github-logo" />
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="projects-examples">
+          <a
+            href="https://www.smittysdj.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={smittysDJ} alt="smittys-dj" />
+          </a>
+          <div className="projects-content">
+            <a
+              href="https://www.smittysdj.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h1>Smitty's DJ</h1>
+            </a>
+            <ol>
+              <li>A fully responsive landing page for a local DJ company</li>
+              <li>
+                Implemented a Netlify form that transmits data to email and data
+                sheet
+              </li>
+              <li>Tools: React, Material UI</li>
+            </ol>
+            <div className="projects-links">
+              <a
+                href="https://www.smittysdj.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>View</button>
+              </a>
+              <p>
+                <a
+                  href="https://github.com/jasmith188/smittys-dj"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

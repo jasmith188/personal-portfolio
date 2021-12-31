@@ -19,9 +19,15 @@
 }
 form {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
 }
 form p {
   color: #eeeeee;
+}
+form input {
+  text-align: right;
 }
 
 /* Form Contact */
