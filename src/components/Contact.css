@@ -79,6 +79,10 @@ form input {
 /* Mobile  */
 
 @media only screen and (max-width: 440px) {
+  .project-examples p,
+  li {
+    font-size: 14px;
+  }
   .form-container {
     margin: 1rem;
   }
