@@ -106,10 +106,15 @@ img {
   li {
     font-size: 1.2rem;
   }
-  .projects-examples img {
+  /* .projects-examples img {
     padding-top: 2rem;
-  }
+  } */
   .projects-content {
     padding: 1rem;
+  }
+  .projects-content img {
+    max-height: 36px;
+    width: auto;
+    height: 100%;
   }
 }
