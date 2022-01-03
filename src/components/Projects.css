@@ -102,6 +102,10 @@ img {
     gap: 0;
     padding: 1rem;
   }
+  .projects-examples p,
+  li {
+    font-size: 1.2rem;
+  }
   .projects-examples img {
     padding-top: 2rem;
   }

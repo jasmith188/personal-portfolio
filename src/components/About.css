@@ -60,11 +60,17 @@
     width: 100%;
     gap: 2rem;
   }
-
+  .about p {
+    font-size: 1.1rem;
+  }
   .about img {
     max-height: 320px;
     width: auto;
     height: 100%;
     padding-bottom: 2rem;
+  }
+  #title {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
   }
 }
