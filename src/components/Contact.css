@@ -21,13 +21,11 @@ form {
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  text-align: right;
   /* align-items: flex-end; */
 }
 form p {
   color: #eeeeee;
-}
-form input {
-  text-align: right;
 }
 
 /* Form Contact */
@@ -67,6 +65,12 @@ form input {
 }
 .form-container form p button:hover {
   font-weight: 700;
+}
+input {
+  margin-left: 0.3rem;
+}
+textarea {
+  margin-left: 0.6rem;
 }
 
 /* Tablet  */
